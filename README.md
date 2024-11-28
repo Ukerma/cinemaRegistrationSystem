@@ -32,6 +32,8 @@
    <li> Exit the application when finished.</li>
 </ol>
 
+<h2>👨‍💻 Author</h2> <p> This project was created by <strong>Umut Kerim ACAR (ukerma)</strong>. </p>
+
 <h1>📜 Açıklama (Türkçe)</h1>
 <p>
    <strong>Cinema Registration System</strong>, sinemaları, müşterileri, filmleri ve tiyatroları yönetmek için Java ile geliştirilmiş bir konsol tabanlı uygulamadır. Sistem, yöneticilere film, müşteri ve tiyatro ekleme, filmleri tiyatrolara atama ve belirli filmler için müşterileri kaydetme imkanı sunar. Sinema ile ilgili etkinlikleri düzenlemek ve takip etmek için verimli bir yol sağlar.
@@ -65,3 +67,4 @@
    </ul>
    <li> İşlem bitince uygulamadan çıkın.</li>
 </ol>
+<h2>👨‍💻 Yazar</h2> <p> Bu proje, <strong>Umut Kerim ACAR (ukerma)</strong> tarafından <strong> yapılmıştır. </p>
