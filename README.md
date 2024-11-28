@@ -32,6 +32,67 @@
    <li> Exit the application when finished.</li>
 </ol>
 
+<h2>📂 Project Structure</h2>
+<p>The project is structured as follows:</p>
+<ul>
+   <li>
+      <strong>BaseEntity (Abstract Class):</strong>  
+      Represents the base class for all entities (e.g., customers, theaters). Includes:
+      <ul>
+         <li><code>id</code>: Unique identifier for each entity.</li>
+         <li><code>name</code>: Name of the entity.</li>
+         <li><code>showInfo()</code>: Abstract method for displaying entity information.</li>
+      </ul>
+   </li>
+   <li>
+      <strong>IRegistration (Interface):</strong>  
+      Provides methods to manage customers, including:
+      <ul>
+         <li><code>addCustomer(Customer customer)</code>: Adds a new customer.</li>
+         <li><code>listCustomers()</code>: Lists registered customers.</li>
+      </ul>
+   </li>
+   <li>
+      <strong>Customer (Class):</strong>  
+      Extends <code>BaseEntity</code> to represent customers. Additional attributes include:
+      <ul>
+         <li><code>phoneNumber</code>: Customer's contact number.</li>
+         <li><code>surname</code>: Customer's last name.</li>
+      </ul>
+      Implements <code>showInfo()</code> to display customer details.
+   </li>
+   <li>
+      <strong>Movie (Class):</strong>  
+      Implements <code>IRegistration</code> to manage customers for specific movies. Includes:
+      <ul>
+         <li><code>name</code>: Movie title.</li>
+         <li><code>duration</code>: Movie duration in minutes.</li>
+         <li><code>genre</code>: Movie genre.</li>
+         <li><code>customers</code>: List of customers registered for the movie.</li>
+      </ul>
+   </li>
+   <li>
+      <strong>Theater (Class):</strong>  
+      Extends <code>BaseEntity</code> and implements <code>IRegistration</code>. Features:
+      <ul>
+         <li><code>capacity</code>: Maximum seating capacity.</li>
+         <li><code>playingMovie</code>: Currently assigned movie.</li>
+         <li><code>customers</code>: Customers registered for the theater.</li>
+      </ul>
+      Includes <code>assignMovie(Movie movie)</code> to assign a movie to the theater.
+   </li>
+   <li>
+      <strong>Main Class:</strong>  
+      Provides the menu-driven interface to interact with the system. Allows users to:
+      <ul>
+         <li>Add movies, customers, and theaters.</li>
+         <li>Register customers for movies.</li>
+         <li>Assign movies to theaters.</li>
+         <li>View movie and theater details or list customers.</li>
+      </ul>
+   </li>
+</ul>
+
 <h2>👨‍💻 Author</h2> <p> This project was created by <strong>Umut Kerim ACAR (ukerma)</strong>. </p>
 
 <h1>📜 Açıklama (Türkçe)</h1>
@@ -67,4 +128,66 @@
    </ul>
    <li> İşlem bitince uygulamadan çıkın.</li>
 </ol>
+
+<h2>📂 Proje Yapısı</h2>
+<p>Proje şu sınıflardan oluşmaktadır:</p>
+<ul>
+   <li>
+      <strong>BaseEntity (Soyut Sınıf):</strong>  
+      Tüm varlıklar için temel sınıf. Şunları içerir:
+      <ul>
+         <li><code>id</code>: Benzersiz kimlik numarası.</li>
+         <li><code>name</code>: Varlığın adı.</li>
+         <li><code>showInfo()</code>: Varlık bilgilerini gösteren soyut metod.</li>
+      </ul>
+   </li>
+   <li>
+      <strong>IRegistration (Arayüz):</strong>  
+      Müşteri yönetimi için gerekli metotları sağlar:
+      <ul>
+         <li><code>addCustomer(Customer customer)</code>: Yeni müşteri ekler.</li>
+         <li><code>listCustomers()</code>: Kayıtlı müşterileri listeler.</li>
+      </ul>
+   </li>
+   <li>
+      <strong>Customer (Sınıf):</strong>  
+      <code>BaseEntity</code> sınıfından türetilmiştir. Ek özellikler:
+      <ul>
+         <li><code>phoneNumber</code>: Müşteri telefon numarası.</li>
+         <li><code>surname</code>: Müşteri soyadı.</li>
+      </ul>
+      <code>showInfo()</code> metodu müşteri bilgilerini yazdırır.
+   </li>
+   <li>
+      <strong>Movie (Sınıf):</strong>  
+      <code>IRegistration</code> arayüzünü uygular. Şunları içerir:
+      <ul>
+         <li><code>name</code>: Film adı.</li>
+         <li><code>duration</code>: Film süresi (dakika).</li>
+         <li><code>genre</code>: Film türü.</li>
+         <li><code>customers</code>: Filme kayıtlı müşteriler listesi.</li>
+      </ul>
+   </li>
+   <li>
+      <strong>Theater (Sınıf):</strong>  
+      <code>BaseEntity</code> sınıfından türetilmiştir ve <code>IRegistration</code> arayüzünü uygular. Şunları içerir:
+      <ul>
+         <li><code>capacity</code>: Maksimum kapasite.</li>
+         <li><code>playingMovie</code>: Gösterilen film.</li>
+         <li><code>customers</code>: Sinema salonuna kayıtlı müşteriler listesi.</li>
+      </ul>
+      <code>assignMovie(Movie movie)</code> metodu filmi sinema salonuna atar.
+   </li>
+   <li>
+      <strong>Main Class:</strong>  
+      Sistemle etkileşim için menü tabanlı bir arayüz sunar. Şunları yapar:
+      <ul>
+         <li>Film, müşteri ve sinema salonu ekleme.</li>
+         <li>Müşterileri filmlere kaydetme.</li>
+         <li>Filmleri sinema salonlarına atama.</li>
+         <li>Film ve sinema salonu detaylarını veya bir sinema salonundaki müşterileri listeleme.</li>
+      </ul>
+   </li>
+</ul>
+
 <h2>👨‍💻 Yazar</h2> <p> Bu proje, <strong>Umut Kerim ACAR (ukerma)</strong> tarafından <strong> yapılmıştır. </p>
