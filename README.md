@@ -36,7 +36,7 @@
 
 <h1>📜 Açıklama (Türkçe)</h1>
 <p>
-   <strong>Cinema Registration System</strong>, sinemaları, müşterileri, filmleri ve sinema salonlarını yönetmek için Java ile geliştirilmiş bir konsol tabanlı uygulamadır. Sistem, yöneticilere film, müşteri ve tiyatro ekleme, filmleri tiyatrolara atama ve belirli filmler için müşterileri kaydetme imkanı sunar. Sinema ile ilgili etkinlikleri düzenlemek ve takip etmek için verimli bir yol sağlar.
+   <strong>Cinema Registration System</strong>, sinemaları, müşterileri, filmleri ve sinema salonlarını yönetmek için Java ile geliştirilmiş bir konsol tabanlı uygulamadır. Sistem, yöneticilere film, müşteri ve sinema salonu ekleme, filmleri sinema salonlarına atama ve belirli filmler için müşterileri kaydetme imkanı sunar. Sinema ile ilgili etkinlikleri düzenlemek ve takip etmek için verimli bir yol sağlar.
 </p>
 
 <h2>🛠️ Özellikler</h2>
