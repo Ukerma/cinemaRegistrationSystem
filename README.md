@@ -36,16 +36,16 @@
 
 <h1>📜 Açıklama (Türkçe)</h1>
 <p>
-   <strong>Cinema Registration System</strong>, sinemaları, müşterileri, filmleri ve tiyatroları yönetmek için Java ile geliştirilmiş bir konsol tabanlı uygulamadır. Sistem, yöneticilere film, müşteri ve tiyatro ekleme, filmleri tiyatrolara atama ve belirli filmler için müşterileri kaydetme imkanı sunar. Sinema ile ilgili etkinlikleri düzenlemek ve takip etmek için verimli bir yol sağlar.
+   <strong>Cinema Registration System</strong>, sinemaları, müşterileri, filmleri ve sinema salonlarını yönetmek için Java ile geliştirilmiş bir konsol tabanlı uygulamadır. Sistem, yöneticilere film, müşteri ve tiyatro ekleme, filmleri tiyatrolara atama ve belirli filmler için müşterileri kaydetme imkanı sunar. Sinema ile ilgili etkinlikleri düzenlemek ve takip etmek için verimli bir yol sağlar.
 </p>
 
 <h2>🛠️ Özellikler</h2>
 <ul>
    <li> Film adı, süresi ve türü gibi detaylarla yeni filmler ekleme.</li>
    <li> Müşterileri ad, soyad ve telefon numarasıyla kaydetme.</li>
-   <li> Belirli bir kapasiteye sahip tiyatrolar oluşturma ve filmleri bu tiyatrolara atama.</li>
+   <li> Belirli bir kapasiteye sahip sinema salonları oluşturma ve filmleri bu sinema salonlarına atama.</li>
    <li> Müşterileri filmlere kaydetme ve detaylarını listeleme.</li>
-   <li> Filmlerin detaylarını ve oynatıldığı tiyatroları görüntüleme.</li>
+   <li> Filmlerin detaylarını ve oynatıldığı sinema salonlarını görüntüleme.</li>
 </ul>
 
 <h2>⚙️ Teknik Detaylar</h2>
@@ -62,8 +62,8 @@
    <ul>
       <li>Yeni filmler ekleyin.</li>
       <li>Müşterileri kaydedin ve onları filmlere atayın.</li>
-      <li>Tiyatrolar oluşturun ve filmleri tiyatrolara atayın.</li>
-      <li>Film ve tiyatro detaylarını görüntüleyin veya bir tiyatroya kayıtlı müşterileri listeleyin.</li>
+      <li>Sinema salonları oluşturun ve filmleri sinema salonlarına atayın.</li>
+      <li>Film ve sinema salonu detaylarını görüntüleyin veya bir sinema salonlarına kayıtlı müşterileri listeleyin.</li>
    </ul>
    <li> İşlem bitince uygulamadan çıkın.</li>
 </ol>
